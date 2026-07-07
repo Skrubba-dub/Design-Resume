@@ -1,2 +1,22 @@
 /* styles.css */
+:root {
+    --dark-blue: #012a4a;
+    --blue-tinted-white: #edf2fb;
+    --pacific-blue: #2a6f97;
+}
+
+h1, h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: var(--pacific-blue);
+    
+    
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--dark-blue);
+    background-color: var(--blue-tinted-white);
+    border: 2px solid var(--dark-blue);
+    
+}
 
